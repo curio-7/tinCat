@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: "Montserrat";
+    text-align: center;
+    overflow-x: hidden;
+}
+.heading1{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.heading2{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p{
+    color: #8f8f8f;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+    padding: 2% 15%;
+}
+
+.container-fluid {
+    padding: 10% 20%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+}
+
+/* Buttons */
+
+.download {
+    margin: 8% 5% 8% 0;
+}
+
+.title-image {
+    width: 100%;
+    border-radius: 100%;
+    padding-top: 10%;
+}
+#feature{
+    padding: 10% 20%;
+    background-color: #fff;
+}
+.feature-box{
+    text-align: center;
+    padding: 15%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1.5rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.carousel-item{
+    padding: 8% 15%;
+}
+.testimonial-img{
+    width: 12%;
+    border-radius: 100%;
+    margin:20px ;
+}
+.testimonial-img2{
+    width:23.6%;
+}
+.testimonial-text{
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-size: 2.5rem;
+}
+#press{
+    background-color:#ef8172 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+.cta-heading{
+    font-family: "Montserrat";
+    color: #fff;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.social{
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+}
